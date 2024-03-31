@@ -1,0 +1,125 @@
+{
+    "testcase1": {
+        "userProfile": {
+            "username": "",
+            "password": "1234567"
+        },
+        "visible":[
+            "The UserName field is required"
+        ],
+        "notVisible": [
+        ]
+    },
+    "testcase2": {
+        "userProfile": {
+            "username": "user02",
+            "password": "123456"
+        },
+        "visible":[
+            "Invalid login attempt."
+        ],
+        "notVisible": [
+            "Welcome: user02"
+        ]
+    },
+    "testcase3": {
+        "userProfile": {
+            "username": "user02@gmail.com",
+            "password": ""
+        },
+        "visible":[
+            "The Password field is required"
+        ],
+        "notVisible": [
+            "Welcome: user02@gmail.com"
+        ]
+    },
+    "testcase4": {
+        "userProfile": {
+            "username": "user02@gmail.com",
+            "password": "12345"
+        },
+        "visible":[
+            "Invalid login attempt."
+        ],
+        "notVisible": [
+            "Welcome: user02@gmail.com"
+        ]
+    },
+    "testcase5": {
+        "userProfile": {
+            "username": "user03@gmail.com",
+            "password": "123456"
+        },
+        "visible":[
+            "Invalid login attempt."
+        ],
+        "notVisible": [
+            "Welcome: user03@gmail.com"
+        ]
+    },
+    "testcase6": {
+        "userProfile": {
+            "username": "user02@gmail.com",
+            "password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9V"
+        },
+        "visible":[
+            "Invalid login attempt."
+        ],
+        "notVisible": [
+            "Welcome: user02@gmail"
+        ]
+    },
+    "testcase7": {
+        "userProfile": {
+            "username": "user02@gmail.com",
+            "password": "123456"
+        },
+        "visible":[
+            "Welcome: user02@gmail.com"
+        ],
+        "notVisible": [
+            "Invalid login attempt."
+        ]
+    },
+    "testcase8": {
+        "userProfile": {
+            "username": "user04@gmail.com",
+            "password": "1234567"
+        },
+        "visible":[
+            "Welcome: user04@gmail.com"
+        ],
+        "notVisible": [
+            "Invalid login attempt."
+        ]
+    },
+    "testcase9": {
+        "userProfile": {
+            "username": "user99@gmail.com",
+            "password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD"
+        },
+        "visible":[
+            "Welcome: user99@gmail.com"
+        ],
+        "notVisible": [
+            "The UserName field is required."
+        ]
+    },
+    "testcase10": {
+        "userProfile": {
+            "username": "user100@gmail.com",
+            "password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9"
+        },
+        "visible":[
+            "Welcome: user100@gmail.com"
+        ],
+        "notVisible": [
+            "The UserName field is required."
+        ]
+    },
+    "adminAccount": "sgu.retail.dev",
+    "adminPassword": "sgu.retail.dev",
+    "domain": "http://localhost:6001",
+    "domainAdmin": "http://localhost:6001/Admin/Account"
+}

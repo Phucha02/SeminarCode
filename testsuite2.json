@@ -1,0 +1,319 @@
+{
+    "domain": "http://localhost:6001",
+    "domainAdmin": "http://localhost:6001/Admin/Account",
+    "adminAccount": "sgu.retail.dev",
+    "adminPassword": "sgu.retail.dev",
+    "testcase": [
+        {
+            "Testcase": 1,
+            "Username": "",
+            "Password": "",
+            "RePassword": "",
+            "ExpectResult": [
+                "The Email field is required",
+                "The Password field is required"
+            ]
+        },
+        {
+            "Testcase": 2,
+            "Username": "",
+            "Password": 12345,
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The Email field is required",
+                "The password and confirmation password do not match."
+            ]
+        },
+        {
+            "Testcase": 3,
+            "Username": "",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9V",
+            "RePassword": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9V",
+            "ExpectResult": [
+                "The Email field is required",
+                "The password and confirmation password do not match."
+            ]
+        },
+        {
+            "Testcase": 4,
+            "Username": "",
+            "Password": 123456,
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The Email field is required",
+                "The password and confirmation password do not match"
+            ]
+        },
+        {
+            "Testcase": 5,
+            "Username": "",
+            "Password": 1234567,
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The Email field is required",
+                "The password and confirmation password do not match"
+             ]
+        },
+        {
+            "Testcase": 6,
+            "Username": "",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD",
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The Email field is required",
+                "The password and confirmation password do not match"
+             ]
+        },
+        {
+            "Testcase": 7,
+            "Username": "",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9",
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The Email field is required",
+                "The password and confirmation password do not match"
+             ]
+        },
+        {
+            "Testcase": 8,
+            "Username": "",
+            "Password": 123456,
+            "RePassword": 123456,
+            "ExpectResult": [
+                "The Email field is required"
+             ]
+        },
+        {
+            "Testcase": 9,
+            "Username": "",
+            "Password": 1234567,
+            "RePassword": 1234567,
+            "ExpectResult": [
+                "The Email field is required"
+             ]
+        },
+        {
+            "Testcase": 10,
+            "Username": "",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD",
+            "RePassword": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD",
+            "ExpectResult": [
+                "The Email field is required"
+             ]
+        },
+        {
+            "Testcase": 11,
+            "Username": "",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9",
+            "RePassword": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9",
+            "ExpectResult": [
+                "The Email field is required"
+             ]
+        },
+        {
+            "Testcase": 12,
+            "Username": "user04",
+            "Password": "",
+            "RePassword": "",
+            "ExpectResult": [
+                "The Password field is required",
+                "The Email field is not a valid e-mail address"
+             ]
+        },
+        {
+            "Testcase": 13,
+            "Username": "user04",
+            "Password": 12345,
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The password and confirmation password do not match.",
+                "The Email field is not a valid e-mail address"
+             ]
+        },
+        {
+            "Testcase": 14,
+            "Username": "user04",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9V",
+            "RePassword": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9V",
+            "ExpectResult": [
+                "The password and confirmation password do not match.",
+                "The Email field is not a valid e-mail address"
+             ]
+        },
+        {
+            "Testcase": 15,
+            "Username": "user04",
+            "Password": 123456,
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The password and confirmation password do not match",
+                "The Email field is not a valid e-mail address"
+             ]
+        },
+        {
+            "Testcase": 16,
+            "Username": "user04",
+            "Password": 1234567,
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The password and confirmation password do not match",
+                "The Email field is not a valid e-mail address"
+             ]
+        },
+        {
+            "Testcase": 17,
+            "Username": "user04",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD",
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The password and confirmation password do not match",
+                "The Email field is not a valid e-mail address"
+             ]
+        },
+        {
+            "Testcase": 18,
+            "Username": "user04",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9",
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The password and confirmation password do not match",
+                "The Email field is not a valid e-mail address"
+             ]
+        },
+        {
+            "Testcase": 19,
+            "Username": "user04",
+            "Password": 123456,
+            "RePassword": 123456,
+            "ExpectResult": [
+                "The Email field is not a valid e-mail address"
+             ]
+        },
+        {
+            "Testcase": 20,
+            "Username": "user04",
+            "Password": 1234567,
+            "RePassword": 1234567,
+            "ExpectResult": [
+                "The Email field is not a valid e-mail address"
+             ]
+        },
+        {
+            "Testcase": 21,
+            "Username": "user04",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD",
+            "RePassword": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD",
+            "ExpectResult": [
+                "The Email field is not a valid e-mail address"
+             ]
+        },
+        {
+            "Testcase": 22,
+            "Username": "user04",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9",
+            "RePassword": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9",
+            "ExpectResult": [
+                "The Email field is not a valid e-mail address"
+             ]
+        },
+        {
+            "Testcase": 23,
+            "Username": "user02@gmail.com",
+            "Password": "",
+            "RePassword": "",
+            "ExpectResult": [
+                "The Password field is required"
+             ]
+        },
+        {
+            "Testcase": 24,
+            "Username": "user50@gmail.com",
+            "Password": 12345,
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The password and confirmation password do not match."
+             ]
+        },
+        {
+            "Testcase": 25,
+            "Username": "user50@gmail.com",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9V",
+            "RePassword": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9V",
+            "ExpectResult": [
+                "The password and confirmation password do not match."
+             ]
+        },
+        {
+            "Testcase": 26,
+            "Username": "user50@gmail.com",
+            "Password": 123456,
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The Password and confirmation password do not match"
+             ]
+        },
+        {
+            "Testcase": 27,
+            "Username": "user50@gmail.com",
+            "Password": 1234567,
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The Password and confirmation password do not match"
+             ]
+        },
+        {
+            "Testcase": 28,
+            "Username": "user50@gmail.com",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD",
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The Password and confirmation password do not match"
+             ]
+        },
+        {
+            "Testcase": 29,
+            "Username": "user50@gmail.com",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9",
+            "RePassword": 12345,
+            "ExpectResult": [
+                "The Password and confirmation password do not match"
+             ]
+        },
+        {
+            "Testcase": 30,
+            "Username": "user50@gmail.com",
+            "Password": 123456,
+            "RePassword": 123456,
+            "ExpectResult": [
+                "Welcome: user50@gmail.com"
+             ]
+        },
+        {
+            "Testcase": 31,
+            "Username": "user51@gmail.com",
+            "Password": 1234567,
+            "RePassword": 1234567,
+            "ExpectResult": [
+                "Welcome: user51@gmail.com"
+             ]
+        },
+        {
+            "Testcase": 32,
+            "Username": "user52@gmail.com",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD",
+            "RePassword": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD",
+            "ExpectResult": [
+                "Welcome: user52@gmail.com"
+             ]
+        },
+        {
+            "Testcase": 33,
+            "Username": "user53@gmail.com",
+            "Password": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9",
+            "RePassword": "qu14GFeG0itDyiosBVEGprsJwNRiPpsDJAiMIKz8bg4pjllcpk2JxKzF8itwLbAJa1s3z95nlR4dPGcBcnXJqBFFCdoUq3QdzoD9",
+            "ExpectResult": [
+                "Welcome: user53@gmail.com"
+             ]
+        }
+    ]
+}
